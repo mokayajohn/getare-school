@@ -1,0 +1,94 @@
+body{
+   background-color: rgba(10,13,45,0.96);
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.navbar{
+    width: 100%;
+}
+
+nav{
+    background-color: rgba(26,163,255,0.96);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    Z-index:100;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+}
+nav ul li{
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    align-content: center;
+    justify-content: center;
+}
+nav ul li a:hover{
+    background-color: #f4f4f4;
+    color: #4E342E;
+}
+.hero-image{
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 50px;
+}
+.hero-text{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: chocolate;
+    font-size: 36px;
+    font-weight: bold;
+    width: 200%;
+}
+div{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.content{
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-decoration: white;
+    padding: 15px;
+    font-size: 24px;
+}
+footer{
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: green;
+    border-radius: 15px;
+    margin-top: 100px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+}
+
+/*/sign up styling/*/
